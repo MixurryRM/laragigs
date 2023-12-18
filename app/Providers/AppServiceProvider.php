@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Illuminate\Pagination\Paginator;
+// use Illuminate\Pagination\Paginator;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
 
@@ -25,6 +25,5 @@ class AppServiceProvider extends ServiceProvider
 
         // Paginator::useBootstrapFive();
     }
-
 
 }
